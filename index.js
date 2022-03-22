@@ -10,10 +10,17 @@ app.use(cors({
 
 app.get('/', (req, res) => {
   res.send({ 
-    message: 'Hello World!'
+    message: 'Server Online'
+  })
+})
+
+app.get('/latest/quiz', (req, res) => {
+  res.send({ 
+    date : '28/03/2020',
+    className: 'Sosyal Bilgiler'
   })
 })
 
 app.listen(process.env.PORT || port, () => {
-  console.log(`Example app listening on port ${port}`)
+  console.log(`7Times server listening on port ${port}`)
 })
