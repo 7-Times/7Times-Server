@@ -16,8 +16,14 @@ app.get('/', (req, res) => {
 
 app.get('/latest/quiz', (req, res) => {
   res.send({ 
-    date : '28/03/2020',
-    className: 'Sosyal Bilgiler'
+    0: {
+      date : '28/03/2020',
+      className: 'Sosyal Bilgiler'
+    },
+    1: {
+      date : '28/03/2020',
+      className: 'Optional English'
+    }
   })
 })
 
