@@ -21,7 +21,7 @@ app.get('/latest/quiz', (req, res) => {
       className: 'Science'
     },
     1: {
-      date : '01/04/2022 - April Fools',
+      date : '01/04/2022 (Watch out for April Fools!)',
       className: 'Religious Education'
     },
     2: {
