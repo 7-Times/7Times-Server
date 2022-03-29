@@ -17,12 +17,16 @@ app.get('/', (req, res) => {
 app.get('/latest/quiz', (req, res) => {
   res.send({ 
     0: {
-      date : '28/03/2022',
-      className: 'Social Science'
+      date : '31/03/2022',
+      className: 'Science'
     },
     1: {
-      date : '28/03/2022',
-      className: 'Optional English'
+      date : '01/04/2022 - April Fools',
+      className: 'Religious Education'
+    },
+    2: {
+      date : '04/05/2022',
+      className: 'Math and Optional Math'
     }
   })
 })
