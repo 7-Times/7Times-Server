@@ -15,16 +15,16 @@ app.get('/', (req, res) => {
 app.get('/latest/quiz', (req, res) => {
   res.send({ 
     0: {
-      date : '22/05/2022',
-      className: 'Technology and Design'
+      date : '1st Quiz/Test not available',
+      className: 'The School Year Is over'
     },
     1: {
       date : '2nd Quiz/Test not available',
-      className: ' '
+      className: 'The School Year Is over '
     },
     2: {
       date : '3rd Quiz/Test not available',
-      className: ' '
+      className: 'The School Year Is over '
     }
   })
 })
